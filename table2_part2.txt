@@ -1,0 +1,29 @@
+load checkpoint from local path: work_dirs/sosdar_geometry_highres/latest.pth
+🚀 [Step 3] Start Evaluation (Thickness=5)...
+
+🔍 [Debug Frame 0]
+   ✅ Preds Found: (40, 3)
+   First Point: [29.133038   0.9963074 -1.329859 ]
+   ✅ GT Found: 2 polys
+
+🔍 [Debug Frame 1]
+   ✅ Preds Found: (40, 3)
+   First Point: [29.129711   1.0072212 -1.3298471]
+   ✅ GT Found: 2 polys
+
+🔍 [Debug Frame 2]
+   ✅ Preds Found: (40, 3)
+   First Point: [29.136524    0.97650146 -1.3298614 ]
+   ✅ GT Found: 2 polys
+
+============================================================
+📊 PHASE 1 GEOMETRY EVALUATION REPORT (Table 2 Data)
+============================================================
+ Model: latest.pth
+ Grid Size: (640, 640)
+------------------------------------------------------------
+ ✅ Rail BEV mIoU : 66.64%
+ 🎯 Precision     : 69.68%
+ 🔍 Recall        : 93.85%
+ ⚠️ False Positives: 38106218.0 (Pixels)
+============================================================
